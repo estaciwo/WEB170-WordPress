@@ -1,0 +1,81 @@
+/*
+Theme Name: Ten Three One
+Theme URI:  http://www.estaciwo.net/
+Description:  Ten Three One Theme
+Author: Eric S.
+Author URI:   http://www.estaciwo.com
+Version:  1.0
+Tags: Responsive, Simple
+License:
+License URI:
+General comments (optional).
+ */ 
+
+body {
+    
+    /* background: #ccfff2; */
+    background-image: url("http://www.estaciwo.net/wp-content/themes/ten-three-one/cruz.jpg");
+    background-size: 100% 100%;
+    margin: 10px 0;
+    padding: 10 0;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+a, a:visited {
+    
+    color: #003326;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    
+    text-decoration: underline;
+}
+
+#header {
+    
+    text-align: center;
+    padding: 0; 
+    font-size: 20px;
+    height: 150px;
+}
+
+.sidebar {
+    
+    width: 200px;
+    float: right;
+    display: block;
+    padding: 10px 10px;
+    background: none;
+    margin-right: 20px;
+}
+
+#content {
+    
+    background-color: none;
+    margin-left: 20px;
+    margin-top: 60px;
+    padding 10px 10px;
+}
+
+#footer {
+    
+    clear: both; 
+    padding: 15px 0;
+    border-top: 2px solid #001a13;
+    text-align: center;
+}
+
+h1 {
+     
+    text-align: left;
+    margin-left: 20px;
+}
+
+h4 {
+    
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+

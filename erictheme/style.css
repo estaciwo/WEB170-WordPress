@@ -1,0 +1,133 @@
+/*
+Theme Name: Eric Theme 
+Theme URI:  http://www.estaciwo.net/
+Description:  Eric Theme
+Author: Eric S.
+Author URI:   http://www.estaciwo.com/
+Version:  1.0
+Tags: Responsive
+License:
+License URI:
+General comments (optional).
+ */
+
+h1 {
+    
+    text-align: center;
+    padding-top: 25px;
+}
+
+h2 { 
+
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+body {
+    
+    background-image: url("http://www.estaciwo.net/wp-content/themes/erictheme/yukio_kita.jpg");
+    background-size: 100% 100%;
+    margin: 10px 0;
+    padding: 10 0;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+#content {
+    
+    background-color: none;
+    margin-left: 50px;
+    margin-top: 60px;
+    padding 10px 10px;
+}
+
+a, a:visited {
+    
+    color: #003326;
+    text-decoration: none;
+}
+
+a:hover, a:active{
+    
+    text-decoration: underline;
+}
+
+#menu-primary-menu {
+    
+    text-align: center;	
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;  
+}
+
+#menu-primary-menu li {
+    
+    display: inline;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px;
+	color: black;
+}
+
+.postcol {
+	width:30%;
+	margin:auto;
+	/* float:left; */
+    margin-left: 15%;
+	margin:1%;
+	padding:1%;
+    opacity:0.8;
+	background:pink;
+}
+
+.entry {
+	width:60%;
+	margin:auto;
+	/* float:left; */
+    margin-left: 15%;
+	margin:1%;
+	padding:1%;
+    opacity:0.8;
+	background:pink;
+}
+
+.sidebar {
+
+	width: 200px;
+	float: right;
+	display: block;
+	padding: 10px 10px;
+	background: #ffd180;
+	margin-right: 20px;
+    margin-top: 55px;
+    opacity: 0.8;
+}
+
+
+#footer {
+    
+    clear: both;
+    padding: 15px 0;
+    border-top: 2px solid #001a13;
+    text-align: center;
+}
+
+/* Tablet */
+@media only screen and (min-device-width: 768px){
+	.postcol {
+		width:46%;
+		float:left;
+	}
+}
+
+/* Desktop */
+@media only screen and (min-width:900px) {
+	.postcol {
+		width:65%;
+        margin-left:2%;
+	}
+    
+    .sidebar {
+        
+        margin-right:5%;
+    }
+}
+
